@@ -1,0 +1,44 @@
+一、可执行文件编译
+	1、修改cmake文件夹arm64_toolchain.cmake或者arm32_toolchain.cmake文件
+        设置gcc-linaro路径：设置为第二步配置工具链中，解压后工具链放置目录。
+        修改line 4-6 :
+        SET(COMPILER /mnt/fileroot/siqi.yang/C1/toolchain/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.02-x86_64_aarch64-linux-gnu/bin/)
+        SET(CMAKE_C_COMPILER ${COMPILER}/aarch64-linux-gnu-gcc)
+        SET(CMAKE_CXX_COMPILER ${COMPILER}/aarch64-linux-gnu-g++)
+
+	2. 编译
+        A. 以arm64为例，如果需要编译得到所有demo的可执行文件
+        执行命令：
+            ./make_nnsdk_linux_64.sh
+            编译得到的可执行文件统一放在build/package文件夹下
+        
+        B. 修改demo文件夹下的CMakeLists.txt文件
+            删除line 18-30:
+			add_subdirectory(face_age)
+            add_subdirectory(face_compare)
+            add_subdirectory(face_detection)
+            add_subdirectory(face_emotion)
+            add_subdirectory(face_gender)
+            add_subdirectory(face_landmark5)
+            add_subdirectory(face_landmark68)
+            add_subdirectory(face_recognize)
+            add_subdirectory(face_rfb_det)
+            add_subdirectory(head_detection)
+            add_subdirectory(image_classify)
+            add_subdirectory(image_segmentation)
+            add_subdirectory(object_detect)
+            
+			只保留add_subdirectory(image_classify),即只编译image_classify demo,默认不编译其余demo
+			
+二、可执行文件运行
+	1、将demo/image_classify/package目录下的对应A311D平台的image_classify_88_A311D.nb文件和224x224x3.jpeg输入文件，以及demo/image_classify/aml_image_cls_64可执行文件拷贝平台上，例如拷贝到/data路径下
+	2、执行命令：
+		./aml_image_cls_64 image_classify_88_A311D.nb 224x224x3.jpeg
+	   Note:  第二个参数 xxx.nb根据板子型号来选取。
+	3、运行结果：
+		the input type should be 224*224*3
+		top 0:score--16.344051,class--2
+		top 1:score--12.786162,class--116
+		top 2:score--9.673010,class--843
+		top 3:score--9.561826,class--444
+		top 4:score--9.117090,class--795
