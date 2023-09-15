@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml:1:1-3:12
+INJECTED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml:1:1-3:12
+INJECTED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml:1:1-3:12
+	package
+		ADDED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml:2:5-60
+		INJECTED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml
+		INJECTED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml
+INJECTED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml
+INJECTED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml
+INJECTED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml
+		ADDED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml
+		INJECTED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml
+		ADDED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml
+		INJECTED from D:\0_bak\36-adla-app\examples-master\examples-master\lite\examples\object_detection\android\lib_task_api\src\main\AndroidManifest.xml

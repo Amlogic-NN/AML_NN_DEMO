@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml:1:1-3:12
+INJECTED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml:1:1-3:12
+INJECTED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml:1:1-3:12
+	package
+		ADDED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml:2:5-60
+		INJECTED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml
+		INJECTED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml
+INJECTED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml
+INJECTED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml
+INJECTED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml
+		ADDED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml
+		INJECTED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml
+		ADDED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml
+		INJECTED from Y:\data\junyi\T7C\google_apk_test\apk_test\src\person_detect\android\lib_interpreter\src\main\AndroidManifest.xml
