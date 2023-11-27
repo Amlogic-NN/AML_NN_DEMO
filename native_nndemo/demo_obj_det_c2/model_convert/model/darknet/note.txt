@@ -1,0 +1,1 @@
+det_yolov2.weights文件过大，无法上传至github，请联系aml工程师xinxin.he获取原始模型
