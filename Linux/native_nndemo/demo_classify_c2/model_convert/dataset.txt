@@ -1,8 +1,0 @@
-./data/goldfish.jpeg
-./data/goldfish128.jpeg
-./data/goldfish160.jpeg
-./data/goldfish299x299.jpeg
-./data/space_shuttle.jpg
-./data/space_shuttle128.jpg
-./data/space_shuttle160.jpg
-./data/space_shuttle299x299.jpg
