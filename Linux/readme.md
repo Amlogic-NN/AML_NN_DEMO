@@ -47,9 +47,10 @@
 │   │   ├── nn_sdk.h
 │   │   ├── postprocess.h
 │   │   └── utils.h
-│   └── lib
-│       ├── lib32
-│       └── lib64
+│   ├── lib
+│   │   ├── lib32
+│   │   └── lib64
+│   └── release.md                         --- nnsdk release note
 ├── cmake                                  --- cmake选项配置文件
 │   ├── arm32_toolchain.cmake
 │   └── arm64_toolchain.cmake
