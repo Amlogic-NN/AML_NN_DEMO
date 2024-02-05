@@ -1,34 +1,36 @@
 #!/bin/bash
 
-copy_files_by_suffix() {
-    local source_dir="$1"
-    local target_dir="$2"
-    local suffix="$3"
+copy_files() {
+    source_directory="$1"
+    target_directory="$2"
 
-    # 检索并拷贝文件
-    for file_path in "$source_dir"/*$suffix; do
-        if [ -f "$file_path" ]; then
-            # 获取文件名和目录名
-            file_name=$(basename "$file_path")
-            directory_name=${file_name%$suffix}
+    # 遍历源目录下的文件
+    for filepath in "$source_directory"/*; do
+        filename=$(basename "$filepath")
 
-            # 创建目标目录
-            target_directory="$target_dir/$directory_name"
-            mkdir -p "$target_directory"
+        # 使用cut命令进行字符串切割
+        board_name=$(echo "$filename" | cut -d'_' -f2 | tr '[:lower:]' '[:upper:]')
+        demo_name=$(echo "$filename" | cut -d'_' -f3- | rev | cut -d'_' -f2- | rev)
 
-            # 拷贝文件到目标目录
-            cp "$file_path" "$target_directory/"
-            echo "文件 $file_name 已拷贝到目录 $target_directory"
-        fi
+        # 构建目标目录路径
+        target_subdirectory="$target_directory/$board_name/$demo_name"
+
+        # 创建目标目录（如果不存在）
+        mkdir -p "$target_subdirectory"
+
+        # 构建目标文件路径
+        target_filepath="$target_subdirectory/$filename"
+
+        # 拷贝文件到目标目录
+        cp "$filepath" "$target_filepath"
+		echo "已拷贝: $filepath 到 $target_filepath"
     done
 }
 
 
-./make_nnsdk_adla_32.sh
-copy_files_by_suffix "build/package" "test_case/adla" "_adla_32"
 
-./make_nnsdk_vsi_32.sh
-copy_files_by_suffix "build/package" "test_case/vsi" "_vsi_32"
+./make_nnsdk_32.sh
+copy_files "build/package" "test_case"
 
-./make_nnsdk_vsi_64.sh
-copy_files_by_suffix "build/package" "test_case/vsi" "_vsi_64"
+./make_nnsdk_64.sh
+copy_files "build/package" "test_case"

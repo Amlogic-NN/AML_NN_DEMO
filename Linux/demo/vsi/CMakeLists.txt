@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 3.5.1)
-PROJECT(AML_NNSDK_DEMO)
-
-add_subdirectory(aml_image_classify)
-add_subdirectory(aml_face_landmark5)
-add_subdirectory(aml_object_detect_yolov5s)

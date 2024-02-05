@@ -17,8 +17,18 @@ add_compile_options(-Wno-unused-variable)
 add_compile_options(-Wno-unused-but-set-variable)
 add_compile_options(-Wno-sign-compare)
 
-if(ADLA)
-    add_subdirectory(demo/adla)
-elseif(VSI)
-    add_subdirectory(demo/vsi)
-endif()
+add_subdirectory(demo/A311X2/image_classify)
+add_subdirectory(demo/A311X2/face_landmark5)
+add_subdirectory(demo/A311X2/object_detect_yolov5s)
+
+add_subdirectory(demo/C305X/image_classify)
+add_subdirectory(demo/C305X/face_landmark5)
+add_subdirectory(demo/C305X/object_detect_yolov5s)
+
+add_subdirectory(demo/C308X/image_classify)
+add_subdirectory(demo/C308X/face_landmark5)
+add_subdirectory(demo/C308X/object_detect_yolov5s)
+
+add_subdirectory(demo/C308L/image_classify)
+add_subdirectory(demo/C308L/face_landmark5)
+add_subdirectory(demo/C308L/object_detect_yolov5s)
