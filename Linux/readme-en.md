@@ -41,6 +41,7 @@
 ├── make_nnsdk_64.sh                                  --- nnsdk demo 64-bit compilation scripts
 ├── make_total.sh                                     --- Total compilation script
 ├── readme.md
+├── readme-en.md
 └── test_case                                         --- The demo executable, which runs the associated model and input files
     ├── A311X2
     │   ├── face_landmark5
@@ -64,10 +65,10 @@
 
 ## 2.1、Demo Type
 
-- 当前提供了三种demo，分别是分类demo，目标检测demo以及人脸demo
-- 分类demo在执行后可以得到top5得分
-- 检测demo在执行后可以得到所检测到的目标数量，框坐标，类别，置信度
-- 人脸demo在执行后可以得到所检测到的人脸数量，框坐标，五点坐标，置信度
+- Currently, three demos are provided, namely, classification demo, target detection demo and face demo
+- The categorization demo can get top5 score after execution
+- The detection demo can be executed to get the number of detected targets, box coordinates, category, and confidence level
+- The face demo can be executed to get the number of detected faces, frame coordinates, five-point coordinates, confidence level
 
 ## 2.2、Interface for Demo
 

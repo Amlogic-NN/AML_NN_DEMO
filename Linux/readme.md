@@ -41,6 +41,7 @@
 ├── make_nnsdk_64.sh                                  --- nnsdk demo 64位编译脚本
 ├── make_total.sh                                     --- 总编译脚本
 ├── readme.md
+├── readme-en.md
 └── test_case                                         --- demo可执行文件, 运行相关的模型及输入文件
     ├── A311X2
     │   ├── face_landmark5
