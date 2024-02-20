@@ -20,6 +20,8 @@ user guide:
 
 ​    adb install -t hand_gesture.apk
 
+​	plug in the camera to the board
+
 ​    Give camera permission after installing apk
 
 ​    If your device has TFL_Detect apk ,first uninstall the TFL_Detect apk and then install this apk.

@@ -18,4 +18,6 @@ user guide:
 
 ​    adb install -t posenet.apk
 
+​	plug in the camera to the board
+
 ​    Give camera permission after installing apk
