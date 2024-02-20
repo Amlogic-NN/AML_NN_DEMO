@@ -29,7 +29,7 @@ fi
 cd build/
 rm -rf *
 
-cmake -DCMAKE_TOOLCHAIN_FILE=arm32_toolchain.cmake .. -DARM32=ON
+cmake -DCMAKE_TOOLCHAIN_FILE=../cmake/arm32_toolchain.cmake .. -DARM32=ON
 
 make -j24
 

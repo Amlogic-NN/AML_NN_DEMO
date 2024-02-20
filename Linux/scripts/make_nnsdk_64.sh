@@ -29,7 +29,7 @@ fi
 cd build/
 rm -rf *
 
-cmake -DCMAKE_TOOLCHAIN_FILE=arm64_toolchain.cmake .. -DARM64=ON
+cmake -DCMAKE_TOOLCHAIN_FILE=../cmake/arm64_toolchain.cmake .. -DARM64=ON
 
 make -j24
 

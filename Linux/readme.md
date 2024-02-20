@@ -1,6 +1,9 @@
 # 1、Introduction to Catalog Structure
 
 ```
+├── cmake                                            --- cmake option configuration file
+│   ├── arm32_toolchain.cmake
+│   └── arm64_toolchain.cmake
 ├── library                                          --- amlogic and third-party library files and header files
 │   ├── 3rdparty
 │   │   ├── include
@@ -26,11 +29,9 @@
 │       ├── face_landmark5
 │       ├── image_classify
 │       └── object_detect_yolov5s
-├── Readme-cn.md
-├── Readme.md
+├── README-CN.md
+├── README.md
 ├── scripts                                          --- compile script
-│   ├── arm32_toolchain.cmake
-│   ├── arm64_toolchain.cmake
 │   ├── CMakeLists.txt
 │   ├── make_nnsdk_32.sh
 │   ├── make_nnsdk_64.sh

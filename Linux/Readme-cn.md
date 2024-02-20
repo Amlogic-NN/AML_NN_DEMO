@@ -1,6 +1,9 @@
 # 1、目录结构介绍
 
 ```
+├── cmake                                            --- cmake选项配置文件
+│   ├── arm32_toolchain.cmake
+│   └── arm64_toolchain.cmake
 ├── library                                          --- amlogic及第三方库文件、头文件
 │   ├── 3rdparty
 │   │   ├── include
@@ -26,11 +29,9 @@
 │       ├── face_landmark5
 │       ├── image_classify
 │       └── object_detect_yolov5s
-├── Readme-cn.md
-├── Readme.md
+├── README-CN.md
+├── README.md
 ├── scripts                                          --- 编译脚本
-│   ├── arm32_toolchain.cmake
-│   ├── arm64_toolchain.cmake
 │   ├── CMakeLists.txt
 │   ├── make_nnsdk_32.sh
 │   ├── make_nnsdk_64.sh
