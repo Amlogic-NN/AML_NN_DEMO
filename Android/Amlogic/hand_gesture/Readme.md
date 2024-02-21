@@ -1,4 +1,4 @@
-# hand detect
+# hand_gesture
 
 Model-Type:uint8
 
