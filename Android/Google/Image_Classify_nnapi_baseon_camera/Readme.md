@@ -18,4 +18,6 @@ user guide:
 
 ​    adb install -t Image_Classify_nnapi_baseon_camera.apk
 
-​    Give camera permission after installing apk
+​	plug in the camera to the board
+
+​    give camera permission after installing apk

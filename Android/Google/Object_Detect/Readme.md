@@ -18,4 +18,6 @@ user guide:
 
 ​    adb install -t Object_detect.apk
 
-​    Give camera permission after installing apk
+​	plug in the camera to the board
+
+​    give camera permission after installing apk

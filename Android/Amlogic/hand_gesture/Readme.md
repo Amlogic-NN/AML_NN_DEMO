@@ -1,4 +1,4 @@
-# hand detect
+# hand_gesture
 
 Model-Type:uint8
 
@@ -19,6 +19,8 @@ adla_soft version: 1.3.0
 user guide:
 
 ​    adb install -t hand_gesture.apk
+
+​	plug in the camera to the board
 
 ​    Give camera permission after installing apk
 

@@ -29,7 +29,11 @@ fi
 cd build/
 rm -rf *
 
+<<<<<<< HEAD:Linux/scripts/make_nnsdk_32.sh
 cmake -DCMAKE_TOOLCHAIN_FILE=arm32_toolchain.cmake .. -DARM32=ON
+=======
+cmake -DCMAKE_TOOLCHAIN_FILE=../cmake/arm32_toolchain.cmake .. -DARM32=ON
+>>>>>>> 9ffa7e3676e67b32f78835561f2ee3f698007d50:Linux/make_total.sh
 
 make -j24
 
