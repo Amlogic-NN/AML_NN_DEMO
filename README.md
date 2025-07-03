@@ -1,4 +1,4 @@
-# AML_NN_DEMO
+# amlogic nn demo
 
 This directory contains demos of the neural network.
 
